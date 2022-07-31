@@ -402,7 +402,7 @@ ul {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-area {
+.form__textarea {
     height: 138px;
 
     padding: 12px 16px;
@@ -451,10 +451,10 @@ ul {
     border-radius: 2px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    ;
+
 }
 
-.modal-agreement:checked+.checkbox-icon>.icon-check {
+.modal-agreement:checked+.icon-check {
     background-color: var(--select-cl);
     border: none;
 }
@@ -749,7 +749,7 @@ ul {
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    ;
+
 }
 
 .address {
